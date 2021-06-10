@@ -1,0 +1,139 @@
+[
+    {
+        "page_label": "Digital Identity",
+        "fields": [
+            {
+                "field_id": "FirstName",
+                "field_label": "Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter name",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "LastName",
+                "field_label": "Surname",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter Surname",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "Birth",
+                "field_label": "Birth date",
+                "field_mandatory": "yes",
+                "field_placeholder": "dd/mm/yy",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "gender",
+                "field_label": "Gender",
+                "field_value": "gender",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Female"
+                    },
+                    {
+                        "option_label": "Male"
+                    },
+                    {
+                        "option_label": "Other"
+                    }
+                ],
+                "field_type": "select"
+            },
+            {
+                "field_id": "Size",
+                "field_label": "Size",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter numeric sizes",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "shoe_size",
+                "field_label": "Shoe size",
+                "field_mandatory": "yes",
+                "field_value": "shoe size",
+                "field_options": [
+                    {
+                        "option_label": "1"
+                    },
+                    {
+                        "option_label": "2"
+                    },
+                    {
+                        "option_label": "3"
+                    },
+                    {
+                        "option_label": "4"
+                    },
+                    {
+                        "option_label": "5"
+                    },
+                    {
+                        "option_label": "6"
+                    },
+                    {
+                        "option_label": "7"
+                    },
+                    {
+                        "option_label": "8"
+                    },
+                    {
+                        "option_label": "9"
+                    }
+                ],
+                "field_type": "select"
+            },
+            {
+                "field_id": "address",
+                "field_label": "Address",
+                "field_mandatory": "yes",
+                "field_placeholder": "e.g. Exhibition Rd",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "city",
+                "field_label": "City",
+                "field_mandatory": "yes",
+                "field_placeholder": "e.g. London",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "State",
+                "field_label": "State",
+                "field_mandatory": "no",
+                "field_placeholder": "",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "postalcode",
+                "field_label": "Postcode",
+                "field_mandatory": "yes",
+                "field_placeholder": "e.g. sw6 7lz",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "country",
+                "field_label": "Country",
+                "field_mandatory": "yes",
+                "field_placeholder": "e.g. UK",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "id",
+                "field_label": "I confirm to have an id.",
+                "field_type": "checkbox",
+                "field_value": ""
+            }
+        ]
+    }
+]
