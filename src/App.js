@@ -62,9 +62,14 @@ function App() {
   return (
     <FormContext.Provider value={{ handleChange }}>
       <div className="App container">
+      <br></br>
+      <h1 style={{color: "lightblue", marginLeft: "0px"}}>ILAB</h1>
+      <br></br>
         <h3>{page_label}</h3>
-        <form>
+        <br></br>
+        <form style={{paddingRight: "20%", paddingLeft: "20%"}}>
           {fields ? fields.map((field, i) => <Element key={i} field={field} />) : null}
+          <br></br>
           <button type="submit" className="btn btn-primary" onClick={(e) => handleSubmit(e)}>Submit</button>
         </form>
 
